@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashir - AI Nerd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero-section">
+        <div class="content">
+            <!-- Profile Image -->
+            <div class="profile-image-container">
+                <!-- Replace 'images/ashir-profile.jpg' with the actual path to your image -->
+                <img src="/home/user/Ghost/AshirPassportsize.jpeg" alt="Ashir's Profile" class="profile-image">
+            </div>
+            <h1>I am Ashir - The AI Nerd</h1>
+            <p>Welcome to the world of Ashir, an AI enthusiast with a passion for learning and exploring the depths of technology.</p>
+            <a href="#about" class="scroll-link">Scroll down to learn more</a>
+        </div>
+    </div>
+
+    <div id="about" class="about-section">
+        <h2>About Ashir</h2>
+        <p>Ashir is a student of Artificial Intelligence (AI) who spends most of his time solving problems, experimenting with algorithms, and reading the latest research papers. As a nerd, Ashir has an insatiable curiosity and an unquenchable thirst for knowledge, always diving deep into complex topics. When he's not coding, you can find him exploring the world of data science, machine learning, or binge-watching AI-related content on YouTube.</p>
+    </div>
+
+    <div id="skills" class="skills-section">
+        <h2>Professional Skills</h2>
+        <ul>
+            <li>Machine Learning & Deep Learning</li>
+            <li>Data Science & Analytics</li>
+            <li>Natural Language Processing (NLP)</li>
+            <li>Python, TensorFlow, PyTorch</li>
+            <li>AI Algorithm Design</li>
+            <li>Computer Vision</li>
+        </ul>
+    </div>
+
+    <div id="contact" class="contact-section">
+        <h2>Contact Ashir</h2>
+        <p>If you'd like to get in touch with Ashir for collaborations, AI projects, or just nerdy discussions, feel free to reach out!</p>
+        <ul>
+            <li>Email: <a href="mailto:ashir.ai@example.com">ashir.ai@example.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/ashir">linkedin.com/in/ashir</a></li>
+            <li>GitHub: <a href="https://github.com/ashir">github.com/ashir</a></li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>Stay curious, stay nerdy!</p>
+    </div>
+
+    <script>
+        // Smooth scrolling animation
+        document.querySelectorAll('.scroll-link').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
